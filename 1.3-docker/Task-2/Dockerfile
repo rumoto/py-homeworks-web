@@ -2,7 +2,7 @@ FROM python:3.9
 
 WORKDIR /stocks_products
 
-COPY . /stocks_products
+COPY ./stocks_products /stocks_products
 
 RUN pip3 install --no-cache-dir --upgrade -r requirements.txt
 
